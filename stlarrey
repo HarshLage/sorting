@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+  array<int,4>a = {1,2,3,4};
+  int b = a.size();
+  for(int i=0;i<b;i++){
+    cout<<a[i]<<" ";
+  }
+  cout<<endl;
+  cout<<"size of the arrey "<<b<<endl;
+  cout<<" element is " <<a.at(3);
+
+  return 0; 
+}
